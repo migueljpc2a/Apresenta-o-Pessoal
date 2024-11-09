@@ -8,6 +8,10 @@ body {
   flex-direction: row;
 }
 
+header {
+  display: flex;
+  align-items: center;
+}
 
 .categoria-videos {
   display: flex;
