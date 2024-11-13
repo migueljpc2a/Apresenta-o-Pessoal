@@ -16,6 +16,11 @@ header {
 
 }
 
+.border-left {
+  border-left: 2px solid var(--a-decoration-color);
+  padding-left: 8px;
+}
+
 .categoria-videos {
   display: flex;
   overflow-x: auto;
