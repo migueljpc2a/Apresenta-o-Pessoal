@@ -1,4 +1,7 @@
-
+:root {
+  --a-decoration-color: #414c2d;
+  --tecnologia-decoration-color: #c4e587;
+  --li-background-color: #15190f;
 
 body {
   display: flex;
