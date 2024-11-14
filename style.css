@@ -35,6 +35,13 @@ header {
   flex-wrap: wrap;
 }
 
+.titulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .habilidades {
   display: flex;
   justify-content: center;
