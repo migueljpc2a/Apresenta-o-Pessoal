@@ -6,100 +6,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apresentação Pessoal | Miguel Felice</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: wheat;
+            margin: 0; /* Remove margens padrões do navegador */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            position: fixed;  /* Fixa o header no topo */
+            top: 0;
+            left: 0;
+            z-index: 1000;  /* Garante que o header fique acima de outros elementos */
+        }
+
+        main {
+            padding: 20px;
+            margin-top: 120px;  /* Cria um espaço para o conteúdo não ficar embaixo do header fixo */
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .categoria-videos {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+        }
+
+        .categoria {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 50px;
+        }
+
+        .categoria-videos img {
+            opacity: 0.5;
+            height: 200px;
+            transition: opacity 0.3s ease;
+        }
+
+        .categoria-videos img:hover {
+            opacity: 1.0;
+            border: 3px solid black;
+        }
+
+        .categoria h2 {
+            color: rgb(42, 122, 228);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f3f3f3;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
 
 <body>
+
     <header>
         <h1>Miguel Felice</h1>
-        <a href="https://github.com/migueljpc2a/Apresenta-o-Pessoal" target="_blank">Repositório</a>
+        <a href="https://github.com/migueljpc2a/Apresenta-o-Pessoal" target="_blank" style="color: white; text-decoration: none; font-size: 16px;">Repositório</a>
     </header>
 
     <main>
         <section class="sobremim">
             <h2>Sobre mim</h2>
-
-            <p>Prazer! Meu nome é Miguel Felice, tenho 16 anos e estou aprendendo T.I na Escolar Dr. João Pires de
-                Camargo</p>
-
+            <p>Prazer! Meu nome é Miguel Felice, tenho 16 anos e estou aprendendo T.I na Escola Dr. João Pires de
+                Camargo.</p>
             <p class="border-left">Estudo programação desde o começo do segundo ano do ensino médio e sempre gostei de
-                <strong>desenvolver coisas.</strong>
-            </p>
-
+                <strong>desenvolver coisas.</strong></p>
         </section>
+
         <section class="habilidades">
             <h2>Habilidades</h2>
+            <p>Durante as minhas aulas de Robótica aprendi o básico da programação em front-end, mas consegui
+                avançar e aumentar bastante o meu conhecimento sobre T.I.</p>
+        </section>
 
-            <p>Durante a minhas aulas de Robótica Aprendi o basico do basico da programação em front-end mas consegui
-                avançar e aumentar bastante o meu conhecimento sobre T.I</p>
-            </main>
-            <section class="MusicasFavoritas">
-                <h2>Musicas Favoritas</h2>
+        <section class="MusicasFavoritas">
+            <h2>Musicas Favoritas</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0lGoqRYgts0WX2NdaNMFDA?utm_source=generator&theme=0" width="30%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2ux3Sb90r5aA74nLMls1u0?utm_source=generator&theme=0" width="30%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4MXhiYIRDMGAuvZc5IFTwC?utm_source=generator&theme=0" width="30%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0bV0LtjtZH76gD0ujPYS3n?utm_source=generator&theme=0" width="30%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
 
-                <iframe style="border-radius:12px"
-                    src="https://open.spotify.com/embed/track/0lGoqRYgts0WX2NdaNMFDA?utm_source=generator&theme=0"
-                    width="30%" height="352" frameBorder="0" allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"></iframe>
-                <iframe style="border-radius:12px"
-                    src="https://open.spotify.com/embed/track/2ux3Sb90r5aA74nLMls1u0?utm_source=generator&theme=0"
-                    width="30%" height="352" frameBorder="0" allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"></iframe>
-                <iframe style="border-radius:12px"
-                    src="https://open.spotify.com/embed/track/4MXhiYIRDMGAuvZc5IFTwC?utm_source=generator&theme=0"
-                    width="30%" height="352" frameBorder="0" allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"></iframe>
-                <iframe style="border-radius:12px"
-                    src="https://open.spotify.com/embed/track/0bV0LtjtZH76gD0ujPYS3n?utm_source=generator&theme=0"
-                    width="30%" height="352" frameBorder="0" allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"></iframe>
+        <section class="VideosQueEuGosto">
+            <h2>Videos que eu Gosto</h2>
+            <div class="categoria-videos">
+                <a href="https://www.youtube.com/watch?v=TKpx-ROftoA">
+                    <img src="https://img.youtube.com/vi/TKpx-ROftoA/maxresdefault.jpg" />
+                </a>
+                <a href="https://www.youtube.com/watch?v=c1J6qXbct00">
+                    <img src="https://img.youtube.com/vi/c1J6qXbct00/maxresdefault.jpg" />
+                </a>
+                <a href="https://www.youtube.com/watch?v=Ped1rRofVCg">
+                    <img src="https://img.youtube.com/vi/Ped1rRofVCg/maxresdefault.jpg" />
+                </a>
+                <a href="https://www.youtube.com/watch?v=9RgZaGFXFyE">
+                    <img src="https://img.youtube.com/vi/9RgZaGFXFyE/maxresdefault.jpg" />
+                </a>
+                <a href="https://www.youtube.com/watch?v=i6EEyu8_guw">
+                    <img src="https://img.youtube.com/vi/i6EEyu8_guw/maxresdefault.jpg" />
+                </a>
+            </div>
+        </section>
 
-            </section>
-            <section class="VideosQueEuGosto">
-                <h2>Videos que eu Gosto</h2>
-                <div class="categoria-videos">
-                    <a href="https://www.youtube.com/watch?v=TKpx-ROftoA">
-                        <img src="https://img.youtube.com/vi/TKpx-ROftoA/maxresdefault.jpg" />
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=c1J6qXbct00">
-                        <img src="https://img.youtube.com/vi/c1J6qXbct00/maxresdefault.jpg" />
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=Ped1rRofVCg">
-                        <img src="https://img.youtube.com/vi/Ped1rRofVCg/maxresdefault.jpg" />
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=9RgZaGFXFyE">
-                        <img src="https://img.youtube.com/vi/9RgZaGFXFyE/maxresdefault.jpg" />
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=i6EEyu8_guw">
-                        <img src="https://img.youtube.com/vi/i6EEyu8_guw/maxresdefault.jpg" />
-                    </a>
-                </div>
-            </section>
+        <section class="SitesDeEstudo">
+            <h2>Sites de estudo que Recomendo</h2>
+            <div>
+                <p class="border-left">
+                    <strong>https://www.w3schools.com/</strong>
+                    Utilizei ele bastante para criar este site, ele mostra como começar e como funciona cada código.
+                </p>
+                <p class="border-left">
+                    <strong>https://brasilescola.uol.com.br/</strong>
+                    Utilizei bastante para fazer pesquisas sobre assuntos que os professores pedem para pesquisar ou falar sobre e nele diz muito sobre o ENEM.
+                </p>
+            </div>
+        </section>
+    </main>
 
-            <section class="SitesDeEstudo">
-                <h2>Sites de estudo que Recomendo</h2>
-
-                <div>
-                    <p class="border-left">
-                        <strong>https://www.w3schools.com/</strong>
-                        Utilizei ele bastante para criar este site, ele mostra como começar e como funciona cada codigo
-                    </p>
-
-                    <p class="border-left">
-                        <strong>https://brasilescola.uol.com.br/</strong>
-                        Utilizei bastante para fazer pesquisas sobre assuntos que os professores pedem para pesquisar ou
-                        falar sobre e nele diz muito sobre o enem
-                    </p>
-                </div>
-
-            </section>
-
-            <footer style="text-align: center; padding: 10px; background-color: #f3f3f3; font-size: 14px; color: #555;">
-                <p>Meus Agradecimentos ao Professor Hugo que me ajudou e me ensinou um pouco sobre esse mundo da
-                    programação e que é um ótimo professor de robótica.</p>
-            </footer>
+    <footer>
+        <p>Meus agradecimentos ao Professor Hugo, que me ajudou e me ensinou um pouco sobre esse mundo da programação e que é um ótimo professor de robótica.</p>
+    </footer>
 
 </body>
 
