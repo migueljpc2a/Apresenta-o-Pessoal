@@ -35,6 +35,13 @@ header {
   flex-wrap: wrap;
 }
 
+.habilidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 main {
   padding: 20px;
   margin-top: 120px;
